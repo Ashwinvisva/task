@@ -21,12 +21,14 @@
 
     <ImageView
         android:id="@+id/updateSaveButton"
-        android:layout_width="40dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="54dp"
-        android:layout_marginEnd="06dp"
+        android:layout_marginTop="57dp"
+        android:layout_marginEnd="45dp"
+        android:background="@color/orange"
+        android:backgroundTint="@color/orange"
         android:src="@drawable/baseline_done_24" />
 
     <EditText
